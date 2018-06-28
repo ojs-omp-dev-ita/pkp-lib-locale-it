@@ -1,89 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
 
 <!--
   * locale/it_IT/admin.xml
   *
-  * Copyright (c) 2014-2018 Simon Fraser University
-  * Copyright (c) 2000-2018 John Willinsky
+  * Copyright (c) 2013-2017 Simon Fraser University
+  * Copyright (c) 2000-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * Localization strings.
+  * Localization strings for the it_IT (Italiano) locale.
+  * Contributed by Andrea Marchitelli - CINECA.
+  *
   -->
 
 <locale name="it_IT" full_name="Italiano">
-	<message key="admin.adminFunctions">Funzioni di amministrazione</message>
-	<message key="admin.auth.confirmDelete">Sei sicuro di voler cancellare permanentemente questa fonte di autenticazione?</message>
-	<message key="admin.auth.create">Crea una fonte di autenticazione</message>
-	<message key="admin.auth.noneCreated">Non sono state definite fonti di autenticazione.</message>
-	<message key="admin.authSources">Autenticazione</message>
-	<message key="admin.clearDataCache">Svuota la cache dei dati</message>
-	<message key="admin.clearTemplateCache">Svuota la cache dei template</message>
-	<message key="admin.configFileUpdatedInstructions"><![CDATA[Il file di configurazione &#x00E8; stato modificato con successo. Da notare che se il sito non dovesse pi&#x00F9; funzionare correttamente dopo queste modifiche sar&#x00E0; necessario sistemare manualmente il file di configurazione <tt>config.inc.php</tt>.]]></message>
-	<message key="admin.confirmClearTemplateCache">Sei sicuro di voler svuotare la cache dei template compilati?</message>
-	<message key="admin.confirmExpireSessions">Sei sicuro di voler chiudere tutte le sessioni utente? Tutti gli utenti attualmente collegati al sistema saranno costretti ad effettuare di nuovo il log in (te compreso).</message>
-	<message key="admin.contentsOfConfigFile">Contenuti del file di configurazione</message>
-	<message key="admin.currentVersion">Versione corrente</message>
-	<message key="admin.dateInstalled">Data d'installazione</message>
-	<message key="admin.displayConfigFileInstructions"><![CDATA[Il contenuto del file di configurazione aggiornato e visualizzato qui di seguito. Per applicare queste modifiche dovete aprire il file <tt>config.inc.php</tt> con un editor di testo e sostituirne il contenuto con il testo della form sottostante.]]></message>
-	<message key="admin.displayNewSystemConfig">Visualizza la nuova configurazione</message>
-	<message key="admin.expireSessions">Fai scadere le sessioni degli utenti</message>
-	<message key="admin.languages.confirmReload">Sei sicuro di voler aggiornare questa lingua aggiuntiva? Questo cancellerà le impostazioni già esistenti, come ad esempio i modelli per le email.</message>
-	<message key="admin.languages.installedLocales">localizzazioni installate</message>
-	<message key="admin.languages.installLanguages">Amministra localizzazioni</message>
-	<message key="admin.languages.installLocales">Installazione</message>
-	<message key="admin.languages.installNewLocales">Installa nuove localizzazioni</message>
-	<message key="admin.languages.languageSettings">Impostazioni per le lingue</message>
-	<message key="admin.languages.noLocalesAvailable">Non è disponibile per l'installazione nessuna lingua aggiuntiva.</message>
-	<message key="admin.languages.reload">Ricarica localizzazione</message>
-	<message key="admin.languages.uninstall">Disinstalla localizzazione</message>
-	<message key="admin.phpInfo">Informazioni dettagliate su PHP</message>
-	<message key="admin.server.apacheVersion">Versione di Apache</message>
-	<message key="admin.server.dbDriver">Driver del database</message>
-	<message key="admin.server.dbVersion">Versione del server di database</message>
-	<message key="admin.serverInformation">Informazioni sul Server</message>
-	<message key="admin.server.phpVersion">Versione di PHP</message>
-	<message key="admin.server.platform">Sistema operativo</message>
-	<message key="admin.settings.aboutDescription">Descrizione del sito</message>
-	<message key="admin.settings.contactEmail">Email del contatto principale</message>
-	<message key="admin.settings.contactName">Nome del contatto principale</message>
-	<message key="admin.settings.form.contactEmailRequired">È richiesto l'indirizzo e-mail del contatto principale.</message>
-	<message key="admin.settings.form.contactNameRequired">È richiesto il nome del contatto principale.</message>
-	<message key="admin.settings.form.minPasswordLengthRequired">Devi inserire una password composta almeno da 4 caratteri.</message>
-	<message key="admin.settings.form.titleRequired">È necessario inserire un titolo.</message>
-	<message key="admin.settings.homeHeaderImage.altText">Logo del sito</message>
-	<message key="admin.settings.homeHeaderImageInvalid">Formato dell'immagine del logo del sito non valido. I formati accettati sono .gif, .jpg, o .png.</message>
-	<message key="admin.settings.introduction">Introduzione</message>
-	<message key="admin.settings.minPasswordLength">Lunghezza minima delle password</message>
-	<message key="admin.settings.passwordCharacters">caratteri</message>
-	<message key="admin.settings.siteLanguage">Lingua del sito</message>
-	<message key="admin.settings.siteStyleSheetInvalid">Formato del foglio di stile del sito non valido. Il formato accettato è .css.</message>
-	<message key="admin.settings.siteStyleSheet">Foglio di stile del sito</message>
-	<message key="admin.settings.siteTitle">Titolo del sito</message>
-	<message key="admin.siteAdmin">Amministrazione del sito</message>
-	<message key="admin.siteManagement">Gestione del sito</message>
-	<message key="admin.siteSettings">Impostazioni</message>
-	<message key="admin.systemConfigFileReadError"><![CDATA[Il file di configurazione <tt>config.inc.php</tt> non esiste, non &#x00E8; leggibile o non &#x00E8; valido.]]></message>
-	<message key="admin.systemInformation">Informazioni sul sistema</message>
-	<message key="admin.versionBuild">Compilazione</message>
-	<message key="admin.version.checkForUpdates">Cerca aggiornamenti</message>
-	<message key="admin.version.downloadPackage">Scarica</message>
-	<message key="admin.version.downloadPatch">Scarica patch</message>
-	<message key="admin.versionHistory">Versioni precedenti</message>
-	<message key="admin.version.latest">Ultima versione</message>
-	<message key="admin.versionMajor">Maggiore</message>
-	<message key="admin.versionMinor">Minore</message>
-	<message key="admin.version.moreInfo">Altre informazioni</message>
-	<message key="admin.versionRevision">Revisione</message>
-	<message key="admin.version.updateAvailable"><![CDATA[&Egrave; disponibile una versione aggiornata]]></message>
-	<message key="admin.version.upToDate">Il tuo sistema è aggiornato</message>
-	<message key="admin.version">Versione</message>
-	<message key="admin.settings">Impostazioni</message>
-	<message key="admin.settings.siteTheme">Tema del sito</message>
-	<message key="admin.siteSetup">Setup del sito</message>
-	<message key="admin.systemInfo.settingName">Nome</message>
-	<message key="admin.systemInfo.settingValue">Valore</message>
-	<message key="admin.languages.installLocale">Installa lingua</message>
-	<message key="admin.scheduledTask.clearLogs">Svuota registro delle attività programmate</message>
-	<message key="admin.settings.siteLogo">Logo</message>
+	<message key="admin.hostedJournals">Riviste</message>
+	<message key="admin.settings.journalRedirect">Redirect</message>
+	<message key="admin.settings.journalRedirectInstructions">Prevede un redirect dal sito principale a una rivista. Può essere utile, ad esempio, se il sito ospita solo una rivista.</message>
+	<message key="admin.settings.noJournalRedirect">Nessun redirect</message>
+	<message key="admin.languages.primaryLocaleInstructions">Questa sarà la lingua di default del sito e di ogni rivista.</message>
+	<message key="admin.languages.supportedLocalesInstructions">Seleziona tutte le localizzazioni supportate dal sito. Le lingue scelte saranno disponibili per tutte le riviste ospitate e saranno visibili nel menu presente in tutte le pagine del sito (in ogni caso il layout potrà sempre essere modificato personalizzando le pagine della singola rivista). Se non vengono impostate più lingue, il menu di selezione non sarà presente e non saranno disponibili le impostazioni estese per le lingue.</message>
+	<message key="admin.languages.confirmUninstall">Sei sicuro di voler disinstallare questa localizzazione? Questa operazione avrà effetto su tutte le lingue che la stanno utilizzando</message>
+	<message key="admin.languages.installNewLocalesInstructions">Seleziona le localizzazioni da installare nel sistema. I file di localizzazione vanno installati, prima che le riviste possano utilizzarli. Leggi la documentazione di OJS per ulteriori informazioni su come aggiungere nuove lingue</message>
+	<message key="admin.languages.downloadFailed">Lo scaricamento della lingua è fallito. Il(I) messaggio(i) di errore qui sotto descrive il motivo dell'insuccesso.</message>
+	<message key="admin.languages.localeInstalled">La lingua "{$locale}" è stata installata.</message>
+	<message key="admin.languages.download">Scarica localizzazione</message>
+	<message key="admin.languages.download.cannotOpen">Non è possibile aprire il descrittore della lingua dal sito web del PKP.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Non è possibile aggiungere la nuova lingua al file di registro della lingua, solitamente "registry/locales.xml".</message>
+	<message key="admin.auth.ojs">Database degli utenti OJS</message>
+	<message key="admin.auth.enableSyncProfiles">Abilita la sincronizzazione del profilo dell'utente (se supportato da questo plug-in di autenticazione). Le informazione sul profilo dell'utente saranno automaticamente aggiornate in remoto quando un utente accede, e i cambiamenti del profilo (inclusi cambi di password) fatti all'interno di OJS saranno automaticamente aggiornati in remoto. Se questa opzione è disabilitata le informazioni del profilo OJS  saranno mantenute separate dalle informazioni del profilo in remoto.</message>
+	<message key="admin.auth.enableSyncPasswords">Abilita la modifica della password dell'utente (se supportato da questo plug-in di autenticazione). L'abilitazione di questa opzione permette agli utenti di modificare la password all'interno di OJS and e di usare il comando OJS "password smarrita"  per resettare una password dimenticata. Queste funzioni non saranno disponibili all'utente con questa fonte di autenticazione se questa opzione è disabilitata .</message>
+	<message key="admin.auth.enableCreateUsers">Abilita la creazione di un utente (se supportato da questo plug-in di autenticazione). Gli utenti creati all'interno di OJS con questa fonte di autenticazione  saranno automaticamente aggiunti alla fonte di autenticazione in remoto se ancora non esiste. Inoltre, se questa fonte è la fonte di autenticazione di default, gli account di OJS creati  tramite la registrazione dello user  saranno aggiunti alla fonte di autenticazione in remoto.</message>
+	<message key="admin.systemVersion">Versione di OJS</message>
+	<message key="admin.systemConfiguration">Configurazione di OJS</message>
+	<message key="admin.systemConfigurationDescription"><![CDATA[Impostazioni di configurazione di OJS prese da <tt>config.inc.php</tt>.]]></message>
+	<message key="admin.journals.journalSettings">Impostazioni della rivista</message>
+	<message key="admin.journals.noneCreated">Non è stata creata nessuna rivista.</message>
+	<message key="admin.contexts.create">Crea una nuova rivista</message>
+	<message key="admin.journals.createInstructions">Sarai automaticamente registrato come manager di questa rivista. Dopo aver creato una nuova rivista, effettua il log in come manager per continuare il setup e registrare gli utenti.</message>
+	<message key="admin.journals.urlWillBe">Utilizzare un termine breve o un acronimo. La URL della rivista sarà {$sampleUrl}</message>
+	<message key="admin.contexts.form.pathRequired">Inserire un path.</message>
+	<message key="admin.contexts.form.pathAlphaNumeric">Il path può contenere solo caratteri alfanumerici, underscore e trattini. Deve iniziare e finire con un carattere alfanumerico e non può contenere spazi.</message>
+	<message key="admin.contexts.form.pathExists">Il path indicato è già utilizzato da un'altra rivista.</message>
+	<message key="admin.journals.enableJournalInstructions">Mostra pubblicamente la rivista sul sito</message>
+	<message key="admin.journals.journalDescription">Descrizione della rivista</message>
+	<message key="admin.journal.pathImportInstructions">Path di una rivista esistente o path da creare (es. "ojs").</message>
+	<message key="admin.journals.importSubscriptions">Importa abbonamenti</message>
+	<message key="admin.journals.transcode">Converti i metadata dell'articolo da ISO8859-1</message>
+	<message key="admin.journals.redirect">Genera il codice per mappare le URL di OJS1 verso quelle di OJS2</message>
+	<message key="admin.journals.form.importPathRequired">È richiesto il path dell'importazione.</message>
+	<message key="admin.journals.importErrors">Importazione fallita</message>
+	<message key="admin.mergeUsers">Fusione utenti</message>
+	<message key="admin.mergeUsers.mergeUser">Fondi l'utente</message>
+	<message key="admin.mergeUsers.into.description">Seleziona l'utente al quale si vogliono attribuire le autorizzazioni dell'utente precedente, modificando gli incarichi assegnati ecc.</message>
+	<message key="admin.mergeUsers.from.description">Seleziona un utente da fondere sull'account di un altro utente (es. quando qualcuno ha due account da utente). L'account selezionato sarà cancellato e le sue submission, gli incarichi ecc. saranno attribuiti al secondo account.</message>
+	<message key="admin.mergeUsers.allUsers">Tutti gli utenti iscritti</message>
+	<message key="admin.mergeUsers.confirm">Sei sicuro di voler fondere {$oldAccountCount} account selezionato(i) con l'account con il nome utente "{$newUsername}"? I vecchi {$oldAccountCount} account non esisteranno più. Questa azione non è reversibile.</message>
+	<message key="admin.mergeUsers.noneEnrolled">Non ci sono utenti iscritti</message>
+	<message key="admin.locale.maybeIncomplete">I file marcati potrebbero essere incompleti.</message>
+	<message key="admin.settings.options">Opzioni</message>
+	<message key="admin.settings.journalsList.showThumbnail">Anteprima della rivista</message>
+	<message key="admin.settings.journalsList.showTitle">Titolo della rivista</message>
+	<message key="admin.settings.journalsList.showDescription">Descrizione della rivista</message>
+	<message key="admin.categories">Categorie</message>
+	<message key="admin.categories.disableCategories">Non organizzare le riviste in categorie</message>
+	<message key="admin.categories.editTitle">Modifica categoria</message>
+	<message key="admin.categories.createTitle">Crea categoria</message>
+	<message key="admin.categories.create">Crea una nuova categoria</message>
+	<message key="admin.categories.noneCreated">Non sono state create categorie.</message>
+	<message key="admin.categories.confirmDelete">Vuoi davvero eliminare questa categoria?</message>
+	<message key="admin.categories.name">Nome</message>
+	<message key="admin.categories.enableCategories">Consenti agli amministratori delle riviste di organizzarle in categorie</message>
+	<message key="admin.categories.nameRequired">Inserire il nome di una categoria</message>
+	<message key="admin.settings.journalsList.description">Scegli gli elementi da mostrare per ciascuna rivista nella home page del sito.</message>
+	<message key="admin.settings.journalsList">Elementi della rivista</message>
+	<message key="admin.settings.usePaging">In siti con molte riviste, spezza la lista in diverse pagine.</message>
+	<message key="admin.categories.enable.description">L'amministratore del sito può definire qui un set di categorie per migliorare l'organizzazione di siti che ospitano molte riviste. Gli amministratori delle riviste possono poi scegliere alcune di queste categorie per ciascuna rivista e i lettori possono navigare attraverso le riviste per categorie.</message>
+	
+	<message key="admin.settings.defaultMetricDescription">Questa installazione OJS è configurata per registrare più di una metrica di utilizzo. Le statistiche di utilizzo verranno visualizzate in diversi contesti. 
+Ci sono casi in cui deve essere utilizzato una sola statistica di utilizzo, ad esempio, per visualizzare un elenco ordinato di oggetti più utilizzati o risultati di ricerca. 
+Selezionare una delle metriche configurate come predefinita.</message>
+	<message key="admin.languages.confirmDisable">Sei sicuro di voler disabilitare questa traduzione. Questo impatterà tutte le riviste che la usano attualmente</message>
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Scaricare i pacchetti linguistici dal Public Knowledge Project web server non è attualmente possibile perchè:</p>
+	<ul>
+		<li>Il tuo server non ha o non permette l'esecuzione di GNU "tar".</li>
+		<li>OJS non può modificare il file che registrata le traduzioni, di solito "registry/locales.xml".</li>
+	</ul>
+<p>I pachetti linguistici posso essere scaricati dal <href="http://pkp.sfu.ca">PKP web site</a>.</p>]]></message>
+	<message key="admin.contexts.form.titleRequired">Un titolo è richiesto</message>
+	<message key="admin.presses.createInstructions">Verrai automaticamente inserito come manager di questa rivista. Dopo aver creato una nuova rivista sarai ridiretto ail setup wizard, per completare il setup iniziale.</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Avviso per ricordare la scadenza dell'abbonamento</message>
+	<message key="admin.scheduledTask.openAccessNotification">Notifica Open Access</message>
+	<message key="admin.scheduledTask.reviewReminder">Avviso per il revisore</message>
 </locale>
