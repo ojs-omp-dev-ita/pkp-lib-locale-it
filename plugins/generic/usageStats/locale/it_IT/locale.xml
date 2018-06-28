@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
+  * Localization strings.
+  -->
+
+<locale name="it_IT" full_name="Italiano">
+
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.siteWide">Ogni rivista può personalizzare queste configurazioni usando la propria pagina dei plugin.</message>
+	<message key="plugins.generic.usageStats.optout.description"><![CDATA[<h3>Informativa generale sulla privacy</h3>
+		<p>Per favore controlla la nostra <a href="{$privacyStatementUrl}">dichiarazione generale sulla privacy</a>.</p>
+		<h3>Statistiche d'uso</h3>
+		<p> Per essere in grado di analizzare l'utilizzo e l'impatto della nostra rivista e degli articoli pubblicati, raccogliamo e registriamo l'accesso alla homepage della rivista, fascicoli, articoli, file principali e file supplementari. Nel processo tutti i dati sono resi anonimi. Nessuna informazione personale viene registrata. Gli indirizzi IP sono resi anonimi mediante hash (utilizzando <em> SHA 256 </ em>) in combinazione con un <em> salt di  64 caratteri</ em> che viene automaticamente <em> generato casualmente e sovrascritto su base giornaliera < / em>. Pertanto gli indirizzi IP non possono essere ricostruiti. </p>
+		<p>Le seguenti informazioni vengono raccolte insieme agli IP anonimi: :</p>
+		<ul>
+		<li>Tipo accesso (ad  esempio ammin.)</li>
+		<li>Data richiesta</li>
+		<li>URL richiesto</li>
+		<li>Codice status HTTP</li>
+		<li>Browser</li>
+		</ul>
+		<p>I dati collezionati sono usati solo per valutazione della ricerca. Gli IP non sono collegati agli ID utenti. Non è possibile collegare un set di dati a uno specifico IP.</p>]]></message>
+</locale>
