@@ -8,6 +8,9 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localized email templates XML file.
+  * Localization strings for the it_IT (Italiano) locale.
+  * Contributed by Andrea Marchitelli - CINECA 2016.
+  * Contributed by Zeno Tajoli        - CINECA 2018.
   -->
 <email_texts locale="it_IT">
 	<email_text key="MANUAL_PAYMENT_NOTIFICATION">

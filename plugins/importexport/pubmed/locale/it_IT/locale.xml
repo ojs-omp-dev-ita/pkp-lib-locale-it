@@ -10,7 +10,8 @@
   *
   * Localization strings for the it_IT locale.
   * Contributed by AePIC Team CILEA.
-  *
+  * Contributed by Andrea Marchitelli - CINECA 2016.
+  * Contributed by Zeno Tajoli        - CINECA 2018.
   -->
  
 <locale name="it_IT" full_name="Italiano">
